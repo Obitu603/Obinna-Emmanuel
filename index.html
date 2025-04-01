@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Obinna Emmanuel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<script type="module"src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+	<link rel="icon" type="image/png" href="assets/img/img1.webp">
+	<img src="assets/img/img1.webp" class="circular-icon" alt="Favicon">
+
+</head>
+
+<body>
+	<div class="container">
+		<nav class="navbar">
+			<div class="box theme">
+				<div class="item" onclick="theme()">
+					<i class="fas fa-sun" id="lightBtn"></i>
+                    <i class="fas fa-moon" id="darkBtn" style="display: none;"></i>
+				</div>
+			</div>
+			<div class="box nav">
+				<div class="item active">
+					<a href="#about">
+						<i class="fas fa-user-circle"></i>
+						<p>About</p>
+					</a>
+					<div class="divider ltr"></div>
+				</div>
+				<div class="item">
+					<a href="#resume">
+						<i class="fas fa-file-alt"></i>
+						<p>Resume</p>
+					</a>
+					<div class="divider ltr"></div>
+				</div>
+				<div class="item">
+					<a href="#project">
+						<i class="fas fa-layer-group"></i>
+						<p>Project</p>
+					</a>
+					<div class="divider ltr"></div>
+				</div>
+
+				<div class="item">
+					<a href="#blogs">
+						<i class="fas fa-book-reader"></i>
+						<p>Blogs</p>
+					</a>
+					<div class="divider ltr"></div>
+				</div>
+
+				<div class="item">
+					<a href="#contact">
+						<i class="fas fa-paper-plane"></i>
+						<p>Contact</p>
+					</a>
+					<div class="divider ltr"></div>
+				</div>
+			</div>
+		</nav>
+		<div class="box profile">
+			<img class="header" src="Assets/img/img1.webp" alt="" srcset="">
+			<img class="img" src="Assets/img/img2.jpg" alt="" srcset="">
+			<h2>Obinna Emmanuel</h2>
+			<p id="typed" class="colored">Full-Stack Web Developer</p>
+			<ul>
+				<li><a href="https://github.com/Obitu603"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://instagram.com/xpressemmy"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto:obitu603@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://linkedin.com/in/ukaegbu-obinna-emmanuel"><i class="fab fa-linkedin"></i></a></li>
+			</ul>
+			<div class="footer">
+				<div class="divider rtl"></div>
+				<table>
+					<tr>
+						<td>
+							<a href="Assets/docs/Ukaegbu_Obinna_Emmanuel_Resume.pdf" target="_blank">
+								<i class="fas fa-file-alt"></i>
+							</a>
+						</td>
+						
+						<td><a href="https://wa.me/+2348176831186"><i class="fab fa-whatsapp"></i></a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="box content">
+			<div class="wrapper">
+				<h2 id="about">Hey <span class="colored">there!👋👋</span></h2>
+				<div class="divider ltr"></div>
+				<p>I am a <span class="colored">web developer and programmer with 4-5 years of experience,</span>
+					passionate about building interactive and efficient digital solutions. Beyond coding, I also
+					enjoy<span class="colored"> teaching</span>, sharing my knowledge to help others grow in tech. As a
+					side hustle, I work as an auto-technician, combining my love for problem-solving with hands-on <span
+						class="colored">technical skills</span>. My diverse experience allows me to approach challenges
+					with creativity and adaptability.</p>
+				<section class="achivements">
+					<div>
+                        <h3><i class="fas fa-layer-group"></i> 2k+</h3>
+                        <p>Websites Designed</p>
+                    </div>
+                    <div>
+                        <h3><i class="fas fa-briefcase"></i> 4+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div>
+                        <h3><i class="fas fa-rocket"></i> 4k+</h3>
+                        <p>Completed Projects</p>
+                    </div>
+				</section>
+
+				<h2>My <span class="colored">Skills</span></h2>
+				<div class="divider ltr"></div>
+				<section class="skills">
+                    <div><i class="fab fa-html5"></i><p>HTML5</p></div>
+                    <div><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+                    <div><i class="fab fa-react"></i><p>React</p></div>
+                    <div><i class="fab fa-python"></i><p>Python</p></div>
+                    <div>
+                        <div class="circle" style="--percent:65%;">
+                            <h4>65<small>%</small></h4>
+                        </div>
+                        <p>MySQL</p>
+                    </div>
+                    <div>
+                        <div class="circle" style="--percent:85%;">
+                            <h4>85<small>%</small></h4>
+                        </div>
+                        <p>MySQL</p>
+                    </div>
+                    <div>
+                        <div class="progress-bar">
+                            <p>Node Js <span>90%</span></p>
+                            <progress value="90" max="100"></progress>
+                        </div>
+                        <div class="progress-bar">
+                            <p>PostgreSQL <span>75%</span></p>
+                            <progress value="75" max="100"></progress>
+                        </div>
+                    </div>
+                </section>
+
+				<h2 id="resume">My <span class="colored">Experience</span></h2>
+				<div class="divider ltr"></div>
+				<section class="experiences">
+					<div class="experience">
+						<h2>ICT Teacher </h2>
+						<h4>Lina’s Dream Academy, Zaria <span class="date">2024</span>&#x26ac <span class="date">2025</span>
+						</h4>
+						<p>During my tenure as an ICT Teacher at Lina’s Dream Academy in Zaria, I taught essential and advanced computing topics. I introduced students to web development, programming, and cybersecurity while fostering problem-solving abilities through hands-on projects.
+							 My focus was on equipping students with the skills to succeed in the evolving field of ICT.</p>
+					</div>
+					<div class="experience">
+						<h2>Assistant Presiding Officer (APOII)</h2>
+						<h4>INEC Election, Kaduna State (2023)<span class="date">2023</span>&#x26ac <span
+								class="date">2023</span></h4>
+						<p>As an Assistant Presiding Officer (APOII) during the 2023 INEC Election in Kaduna State, I played a key role in managing voter accreditation and ensuring the smooth execution of electoral processes. I also supervised the voting procedure and efficiently reported results to INEC officials, contributing to the integrity and success of the election.</p>
+					</div>
+					<div class="experience">
+						<h2>SIWES Internship</h2>
+						<h4>Iya Abubakar Main Campus<span class="date">2018</span>&#x26ac <span
+								class="date">2018</span></h4>
+						<p>During my SIWES Internship at Iya Abubakar Main Campus, ABU Zaria, I gained valuable practical experience in networking, computer maintenance, and ICT solutions. I also provided support in hardware troubleshooting and software installations, honing my technical skills and contributing to effective ICT operations.</p>
+					</div>
+					<div class="experience">
+						<h2>Auto Mechanic </h2>
+						<h4>Graceland, Zaria. <span class="date">2014</span>&#x26ac <span class="date">2025</span>
+						</h4>
+						<p>As an Auto Mechanic at Graceland in Zaria, I specialized in Kickstarter, Alternator, and Wiring repairs, ensuring vehicle functionality and reliability. I also provided battery maintenance services, including recharging and recycling, to extend battery life and promote sustainability. Additionally, I diagnosed and resolved various mechanical
+							 and electrical faults in vehicles, delivering efficient solutions to enhance performance.</p>
+					</div>
+					
+					
+				</section>
+
+				<h2>My <span class="colored">Contribution</span></h2>
+				<div class="divider ltr"></div>
+				<section class="contribution">
+					<div class="wrapper">
+						<activity-graph 
+                            range-start="2021-01-01" 
+                            range-end="2021-12-31" 
+                            activity-data="2024-01-01,2024-01-01,2024-01-01,2024-01-01,2024-01-01,2024-01-02,2024-01-02,2024-01-02,2024-01-02,2024-01-02,2024-01-03,2024-01-03,2024-01-03,2024-01-03,2024-01-03,2024-01-04,2024-01-04,2024-01-04,2024-01-04,2024-01-04,2024-01-05,2024-01-05,2024-01-05,2024-01-05,2024-01-05,2024-01-06,2024-01-06,2024-01-06,2024-01-06,2024-01-06,2024-01-07,2024-01-07,2024-01-07,2024-01-07,2024-01-07,2024-01-08,2024-01-08,2024-01-08,2024-01-08,2024-01-08,2024-01-09,2024-01-09,2024-01-09,2024-01-09,2024-01-09,2024-01-10,2024-01-10,2024-01-10,2024-01-10,2024-01-10,2024-01-11,2024-01-11,2024-01-11,2024-01-11,2024-01-11,2024-01-12,2024-01-12,2024-01-12,2024-01-12,2024-01-12,2024-01-13,2024-01-13,2024-01-13,2024-01-13,2024-01-13,2024-01-14,2024-01-14,2024-01-14,2024-01-14,2024-01-14,2024-01-15,2024-01-15,2024-01-15,2024-01-15,2024-01-15,2024-01-16,2024-01-16,2024-01-16,2024-01-16,2024-01-16,2024-01-17,2024-01-17,2024-01-17,2024-01-17,2024-01-17,2024-01-18,2024-01-18,2024-01-18,2024-01-18,2024-01-18,2024-01-19,2024-01-19,2024-01-19,2024-01-19,2024-01-19,2024-01-20,2024-01-20,2024-01-20,2024-01-20,2024-01-20,2024-01-21,2024-01-21,2024-01-21,2024-01-21,2024-01-21,2024-01-22,2024-01-22,2024-01-22,2024-01-22,2024-01-22,2024-01-23,2024-01-23,2024-01-23,2024-01-23,2024-01-23,2024-01-24,2024-01-24,2024-01-24,2024-01-24,2024-01-24,2024-01-25,2024-01-25,2024-01-25,2024-01-25,2024-01-25,2024-01-26,2024-01-26,2024-01-26,2024-01-26,2024-01-26,2024-01-27,2024-01-27,2024-01-27,2024-01-27,2024-01-27,2024-01-28,2024-01-28,2024-01-28,2024-01-28,2024-01-28,2024-01-29,2024-01-29,2024-01-29,2024-01-29,2024-01-29,2024-01-30,2024-01-30,2024-01-30,2024-01-30,2024-01-30" 
+                            activity-levels="0,1,2,3,5">
+                        </activity-graph>
+					</div>
+				</section>
+				<h2 id="project">My <span class="colored">Projects</span></h2>
+				<div class="divider ltr"></div>
+				<section class="projects">
+					<div class="project-1">
+						<img src="assets/img/Adino_pro.jpg" alt="">
+						<a href="cardtest.html">
+						<h3>View <span class="colored">Project</span></h3></a>
+					</div>
+					<div class="project-2">
+						<img src="assets/img/linacal.jpg" alt="">
+						<a href="cardtest.html">
+							<h3>View <span class="colored">Project</span></h3></a>
+					</div>
+					<div class="project-3">
+						<img src="assets/img/pro-3.jpg" alt="">
+						<a href="ww.canva.com/design/DAGN6jAbRjs/cmYOR8a_gz4qDBopFoB6pw/edit?utm_content=DAGN6jAbRjs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+							<h3>View <span class="colored">Project</span></h3></a>
+						
+					</div>
+					<div class="project-4">
+						<img src="assets/img/Todo.jpg" alt="">
+						<a href="cardtest.html">
+							<h3>View <span class="colored">Project</span></h3></a>
+					</div>
+					<div class="project-5">
+						<img src="assets/img/pro-5.jpg" alt="">
+						<a href="va.com/design/DAGbXG581G4/2-3hHUcec1HmwdbYsUA_2A/edit?utm_content=DAGbXG581G4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+							<h3>View <span class="colored">Project</span></h3></a>
+					</div>
+					<div class="project-6">
+						<img src="assets/img/Techkids.jpg" alt="">
+						<a href="cardtest.html">
+							<h3>View <span class="colored">Project</span></h3></a>
+					</div>
+					<div class="project-7">
+						<img src="assets/img/pro-6.jpg" alt="">
+						<a href="va.com/design/DAGemEgcsFk/8dq_z3-nMsGzZOir3CCioQ/edit?utm_content=DAGemEgcsFk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+							<h3>View <span class="colored">Project</span></h3></a>
+					</div>
+				</section>
+				<h2 id="blogs">My <span class="colored">Blogs</span></h2>
+				<div class="divider ltr"></div>
+				<section class="blogs">
+					
+					
+				    <div class="blogs__grid">
+						<!-- blog Card 1 - Bootstrap -->
+						<div class="blog-card" role="region" aria-label="Bootstrap Dashboard">
+						  <div class="blog-card__icon" style="background-image: url('assets/img/bootstrap.jpeg');" aria-hidden="true"></div>
+						  <div class="blog-card__content">
+							<h3 class="blog-card__title">Bootstrap Dashboard</h3>
+							<p class="blog-card__description">Responsive admin dashboard built with Bootstrap 5, featuring modern UI components and interactive charts.</p>
+							<button class="blog-card__button" aria-label="View Bootstrap Dashboard code">
+							  <span class="button__content">
+								<!-- <span class="button__icon" aria-hidden="true"></span> -->
+								Learn More
+							  </span>
+							</button>
+						  </div>
+						</div>
+				  
+				  
+						<!-- blog Card 3 - WordPress -->
+						<div class="blog-card" role="region" aria-label="WordPress CMS">
+						  <div class="blog-card__icon" style="background-image: url('assets/img/wordpress.jpg');" aria-hidden="true"></div>
+						  <div class="blog-card__content">
+							<h3 class="blog-card__title">WordPress CMS</h3>
+							<p class="blog-card__description">Custom WordPress theme development with WooCommerce integration for a client portfolio site.</p>
+							<button class="blog-card__button" aria-label="View WordPress CMS code">
+							  <span class="button__content">
+								<!-- <span class="button__icon" aria-hidden="true"></span> -->
+								Learn More
+							  </span>
+							</button>
+						  </div>
+						</div>
+				  
+						<!-- blog Card 4 - AI -->
+						<div class="blog-card" role="region" aria-label="AI Chatbot">
+						  <div class="blog-card__icon" style="background-image: url('assets/img/AI.jpeg');" aria-hidden="true"></div>
+						  <div class="blog-card__content">
+							<h3 class="blog-card__title">AI Chatbot</h3>
+							<p class="blog-card__description">Natural language processing chatbot using Python, TensorFlow, and NLP techniques for customer support.</p>
+							<button class="blog-card__button" aria-label="View AI Chatbot code">
+							  <span class="button__content">
+								<!-- <span class="button__icon" aria-hidden="true"></span> -->
+								Learn More
+							  </span>
+							</button>
+						  </div>
+						</div>
+				  
+						<!-- blog Card 5 - Laravel -->
+						<div class="blog-card" role="region" aria-label="Laravel API">
+						  <div class="blog-card__icon" style="background-image: url('assets/img/Laravel.jpg');" aria-hidden="true"></div>
+						  <div class="blog-card__content">
+							<h3 class="blog-card__title">Laravel API</h3>
+							<p class="blog-card__description">RESTful API backend built with Laravel for a mobile application with JWT authentication.</p>
+							<button class="blog-card__button" aria-label="View Laravel API code">
+							  <span class="button__content">
+								<!-- <span class="button__icon" aria-hidden="true"></span> -->
+								Learn More
+							  </span>
+							</button>
+						  </div>
+						</div>
+				  
+						<!-- blog Card 7 - UI/UX -->
+						<div class="blog-card" role="region" aria-label="UI/UX Design System">
+						  <div class="blog-card__icon" style="background-image: url('assets/img/UIUX.jpg');" aria-hidden="true"></div>
+						  <div class="blog-card__content">
+							<h3 class="blog-card__title">UI/UX Design System</h3>
+							<p class="blog-card__description">Comprehensive design system with Figma components, style guides, and accessibility standards.</p>
+							<button class="blog-card__button" aria-label="View UI/UX Design System">
+							  <span class="button__content">
+								<!-- <span class="button__icon" aria-hidden="true"></span> -->
+								Learn More
+							  </span>
+							</button>
+						  </div>
+						</div>
+				  
+						<!-- blog Card 8 - Python -->
+						<div class="blog-card" role="region" aria-label="Python Data Analysis">
+						  <div class="blog-card__icon" style="background-image: url('https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80');" aria-hidden="true"></div>
+						  <div class="blog-card__content">
+							<h3 class="blog-card__title">Python Data Analysis</h3>
+							<p class="blog-card__description">Data processing pipeline using Pandas, NumPy, and Matplotlib for business intelligence insights.</p>
+							<button class="blog-card__button" aria-label="View Python Data Analysis code">
+							  <span class="button__content">
+								<!-- <span class="button__icon" aria-hidden="true"></span> -->
+								Learn More
+							  </span>
+							</button>
+						  </div>
+						</div>
+					  </div>
+				</section>
+				<h2>My <span class="colored">Testimonials</span></h2>
+				<div class="divider ltr"></div>
+				<section class="testimonials">
+					<div class="testimonials-box">
+						<h1>What <span class="colored"> are Clients saying?</span></h1>
+					</div>
+					<div class="testimonials-box">
+						<img src="assets/img/woman.webp" alt="" srcset="">
+						<span>
+							<i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+						</span>
+						<h3>Dan Grommes</h3> <i>Manager at Google Inc.</i>
+						<p>I had the pleasure of working with Ukaegbu Obinna Emmanuel, and I must say, his professionalism and expertise are truly commendable.</p>
+					</div>
+					<div class="testimonials-box">
+						<img src="assets/img/businessman.avif" alt="" srcset="">
+						<span>
+							<i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+						</span>
+						<h3>James Adekunle</h3> <i>CEO at Top City Plaza</i>
+						<p>I contacted Ukaegbu Obinna Emmanuel to develop a professional website for my business, and I was beyond impressed!</p>
+					</div>
+					<div class="testimonials-box">
+						<img src="assets/img/student.avif" alt="" srcset="">
+						<span>
+							<i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+						</span>
+						<h3>Richard Wills</h3> <i>Student Techkids Academy.</i>
+						<p>I enrolled in Mr. Obinna's ICT training program, and I must say, he is a fantastic tutor. He explained complex topics in a simple and practical way, making learning fun and engaging.</p>
+					</div>
+				</section>
+				<h2 id="contact">Contact <span class="colored">Me</span></h2>
+				<div class="divider ltr"></div>
+				<section >
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.491913624227!2d7.652016374282413!3d11.151167789021294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11b2842b20cedfad%3A0xce18622ae8135eb0!2sAhmadu%20Bello%20University!5e0!3m2!1sen!2sng!4v1712663906018!5m2!1sen!2sng" frameborder="0" width="100%" height="300" class="map"></iframe>
+					<form action="#" class="contact" >
+						<div>
+							<input type="text" class="input" name="firstname" id="" placeholder="Your Name">
+						</div>
+						<div>
+							<input type="text"  class="input" name="lastname" id="" placeholder="Your Lastname">
+						</div>
+						<div>
+							<input type="email" class="input" name="firstname" id="" placeholder="Your Email">
+						</div>
+						<div>
+							<textarea name="subject" rows="4" class="input" id="" placeholder="Write your Message"></textarea>
+						</div>
+						<div>
+							<button type="submit" class="submit">
+                                <i class="fas fa-paper-plane"></i> SEND
+                            </button>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
